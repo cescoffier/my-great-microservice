@@ -58,7 +58,6 @@ public class HttpApplication extends AbstractVerticle {
     }
 
     JsonObject response = new JsonObject()
-        .put("foo", "bar")
         .put("content", String.format(template, name));
 
     rc.response()
