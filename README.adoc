@@ -11,9 +11,9 @@ To run this booster on your local host:
 
 [source,bash,options="nowrap",subs="attributes+"]
 ----
-$ git clone git@github.com:samburrai/some-vertx-code
+$ git clone git@github.com:cescoffier/my-great-microservice
 
-$ cd some-vertx-code
+$ cd my-great-microservice
 
 $ mvn compile vertx:run
 ----
