@@ -58,6 +58,7 @@ public class HttpApplication extends AbstractVerticle {
     }
 
     JsonObject response = new JsonObject()
+        .put("city", "San Francisco")
         .put("content", String.format(template, name));
 
     rc.response()
