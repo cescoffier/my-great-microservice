@@ -47,7 +47,7 @@ public class HttpApplication extends AbstractVerticle {
 
   private void greeting(RoutingContext rc) {
     if (!online) {
-      rc.response().setStatusCode(400).putHeader(CONTENT_TYPE, "text/plain").end("Not online");
+      rc.response().setStatusCode(400).putHeader(CONTENT_TYPE, "text/plain").end("Not online anymore");
       return;
     }
 
